@@ -1,0 +1,87 @@
+/* Changing the mouse cursor to the pointer hand */
+#newSearch:hover {
+    cursor: pointer;
+}
+
+/* setting size for the card images */
+.card-size {
+    height: 225px!important;
+    width: 225px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    font-size: 15px !important;
+}
+
+.no-left-margin {
+    margin-left: 0!important;
+}
+
+/* Google font */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Materialize container default width is too tight. Adjusting for our project */
+.wrapper {
+    width: 100%;
+}
+
+/* animation LOGO */
+#img-logo{
+position: relative;
+width: 50%;
+height:auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+animation-name: logoAnimation;
+animation-duration:5s;
+}
+
+@keyframes logoAnimation{
+    0%   {opacity:0};
+    25%  {opacity:0.1}; 
+    50%  {opacity:0.3};
+    75%  {opacity:0.6};
+    100% {opacity:1}; 
+}
+/* end animation LOGO */
+
+.margin-20 {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+/* setting height for search bar */
+.search-height {
+    height:64px !important;
+    margin: 0px !important;
+}
+#logoCol{
+    margin: auto;
+    padding-top:10px;
+}
+
+#git-logo{
+    height:55px;
+    width: 12%;
+    margin-left:30px;
+}
+
+#apiKey-logo{
+    height:55px;
+    width:20%;
+    margin-left:30px;
+}
+
+.progress{
+    display: none;
+    text-align: center;
+    position: relative;
+}
